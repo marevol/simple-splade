@@ -2,8 +2,8 @@
 name = "simple-splade"
 version = "0.1.0"
 description = "A simple SPLADE-like implementation."
-authors = ["Your Name <you@example.com>"]
-license = "MIT"
+authors = ["Shinsuke Sugaya <shinsuke@apache.org>"]
+license = "Apache-2.0"
 
 [tool.poetry.dependencies]
 python = "^3.10"
