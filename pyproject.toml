@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "simple-splade"
+version = "0.1.0"
+description = "A simple SPLADE-like implementation."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.4.1"
+transformers = "^4.44.2"
+
+pandas = "^2.2.2"
+pyarrow = "^17.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+known_third_party = ["numpy", "pandas"]
